@@ -1,18 +1,14 @@
-# SampleBPjsProject
+# ROS-BP
 
-A sample maven project using BPjs. Clone or fork this project to easily start your own prject using BPjs. This project has two files:
+A BPjs version for the TurtleBot simulation, presented in https://github.com/ROBOTIS-GIT/turtlebot3_simulations.
 
-* `src/main/resources/HelloBPjsWorld.js` BPjs "hello world" program.
-* `src/main/java/il/ac/bgu/cs/bp/samplebpjsproject/HelloWorld.java` Simple "main" class for running `HelloBPjsWorld.js` and emitting its events to stdout.
-
-
-To make the project runnable from the commandline, add this to the `<properties>` node of the `pom.xml` file:
-
-    <exec.mainClass>package.name.goes.here.and.then.ClassName</exec.mainClass>
-
-Then run the application by typing:
-
-    mvn exec:java
+To run this project you need:
+* [ROS with gazebo (tested with melodic)](http://wiki.ros.org/melodic/Installation)
+* [ROS bridge](http://wiki.ros.org/rosbridge_suite/Tutorials/RunningRosbridge)
+* run in shell: rscore
+* run in shell: roslaunch turtlebot3_gazebo turtlebot3_world.launch
+* run in shell: roslaunch rosbridge_server rosbridge_websocket.launch 
+* run the project: mvn exec:java
 
 ## Please keep these:
 * This project uses [BPjs](https://github.com/bThink-BGU/BPjs).
