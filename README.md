@@ -8,9 +8,9 @@ To run this project you need:
 * run in shell: rscore
 * run in shell: roslaunch turtlebot3_gazebo turtlebot3_world.launch
 * run in shell: roslaunch rosbridge_server rosbridge_websocket.launch 
-* run the project: mvn exec:java
+* run the project
+
 
 ## Please keep these:
 * This project uses [BPjs](https://github.com/bThink-BGU/BPjs).
 * BPjs uses the Mozilla Rhino Javascript engine. See [here](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino) for project page and source code.
-
