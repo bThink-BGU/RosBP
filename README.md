@@ -11,6 +11,6 @@ To run this project you need:
 * run the project
 
 
-## Please keep these:
+## Please keep these (in case you fork):
 * This project uses [BPjs](https://github.com/bThink-BGU/BPjs).
 * BPjs uses the Mozilla Rhino Javascript engine. See [here](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino) for project page and source code.
