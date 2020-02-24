@@ -59,6 +59,7 @@ bp.registerBThread("init", function () {
     ros.addTopic("/odom", "nav_msgs/Odometry", properties);
     ros.addTopic("/scan", "sensor_msgs/LaserScan", properties);
     ros.subscribe("/scan");
+    //ros.subscribe("/gazebo/link_states"); for verification, see http://gazebosim.org/tutorials/?tut=ros_comm
     // ros.subscribe("/odom");
     ros.advertise("/cmd_vel", "UpdateVelocity");
 });
